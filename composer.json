@@ -1,0 +1,34 @@
+{
+    "name": "adriantimofti/cnpvalid",
+    "description": "PHP Validation for Personal Identification Number (Validare PHP pentru Cod Numeric Personal CNP)",
+    "version": "1.0.0",
+    "keywords": [
+        "CNP",
+        "PHP",
+        "Validator"
+    ],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Adrian Timofticiuc",
+            "email": "adrian.timofticiuc@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "homepage": "https://github.com/alceanicu/cnp",
+    "require": {
+        "php": ">=7.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9"
+    },
+    "scripts": {
+        "test": "./vendor/bin/phpunit --bootstrap ./vendor/autoload.php --testdox"
+    },
+    "autoload": {
+        "psr-4": {
+            "adriantimofti\\cnpvalid\\": "src/"
+        }
+    }
+}
