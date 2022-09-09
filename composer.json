@@ -16,7 +16,7 @@
             "role": "Developer"
         }
     ],
-    "homepage": "https://github.com/alceanicu/cnp",
+    "homepage": "https://github.com/AdrianTimofti/cnpvalid",
     "require": {
         "php": ">=7.4"
     },
